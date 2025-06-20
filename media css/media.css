@@ -1,0 +1,132 @@
+@media (max-width: 2700px) and (min-width: 2100px) {
+    .about {
+        padding: 0 clamp(1em, 36%, 40em);
+    }
+}
+
+@media (max-width: 2100px) and (min-width: 1024px) {
+
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .about {
+        padding: 0 clamp(1em, 16%, 3em);
+    }
+
+    .f_grid .grid_info p {
+        line-height: 20px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 706px) {
+    .about {
+        flex-direction: column;
+    }
+
+    .about_img {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .about .about_img_1 .img_1 {
+        width: 280px;
+        height: 442px;
+    }
+
+    .about .about_img_2 .img_2 {
+        width: 280px;
+        height: 442px;
+    }
+
+    .about_img {
+        margin-right: 50px;
+    }
+    
+    .f_grid .grid_info p {
+        line-height: 20px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 706px) and (min-width: 425px) {
+    .about {
+        flex-direction: column;
+    }
+
+    .about_img {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .about .about_img_1 .img_1 {
+        width: 280px;
+        height: 442px;
+    }
+
+    .about .about_img_2 .img_2 {
+        width: 280px;
+        height: 442px;
+    }
+
+    .f_grid {
+        padding: 40px;
+    }
+    
+    .f_grid .grid_info p {
+        line-height: 20px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 425px) and (min-width: 320px){
+    .about {
+        flex-direction: column;
+    }
+
+    .about_img {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .about .about_img_1 .img_1 {
+        width: 212px;
+        height: 365px;
+    }
+
+    .about .about_img_2 .img_2 {
+        width: 212px;
+        height: 365px;
+    }
+
+    .f_grid .grid_info p {
+        line-height: 20px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 425px) and (min-width: 320px){
+    .about {
+        flex-direction: column;
+    }
+
+    .about_img {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .about .about_img_1 .img_1 {
+        width: 280px;
+        height: 442px;
+    }
+
+    .about .about_img_2 .img_2 {
+        width: 280px;
+        height: 442px;
+    }
+
+    .f_grid .grid_info p {
+        line-height: 20px;
+        font-size: 16px;
+    }
+}
